@@ -1,0 +1,11 @@
+:root {
+  --heading-weight: 715;
+  --text-weight: 410;
+  --bg-image: repeating-linear-gradient(#d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
+  repeating-linear-gradient(to left, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
+  repeating-linear-gradient( #e7e7e7, #1a1a1a);
+  --bg-color: #fff;
+  --elements-width: clamp(23.438rem, 30.516vw + 16.285rem, 43.75rem);
+  --elements-border: 2px solid #000;
+  --label-color: rgb(255 255 255 / 0.5);
+}

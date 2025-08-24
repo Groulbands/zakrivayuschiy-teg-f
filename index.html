@@ -11,9 +11,58 @@
     <link rel="stylesheet" href="./styles/animations.css" />
   </head>
   <body class="page">
-    <header class="header"></header>
+    <header class="header">
+      <h1 class="header__title">&lt;/html&gt;</h1>
+      <div class="header__subtitle">закрывающий тег</div>
+    </header>
     <main>
-      <p>dasdsadsad</p>
+      <ul class="cards__list">
+
+        <li class="card">
+          <h2 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
+          <div class="card__image_wrapper">
+            <img 
+            class="card__image"
+            src="./images/car.png"
+            alt="Фургон, стоящий на парковке в ночное время"
+            />
+            <span class="label">&lt;/html&gt;</span>
+          </div>
+          <section class="card__content">
+            <p class="card__text">Это было самое начало пути. 
+              На этом этапе важно было проникнуться основами и настроиться на учёбу. 
+              И, возможно, подумать, как новые знания могут повлиять на ваше будущее.</p>
+            <p class="card__text">Место для ваших воспоминаний о начале обучения.</p>
+            <div class="button__wrapper">
+              <button class="card__icon-button"><svg class="like-icon"><use href="./svg/heart in paths (1).svg"/></svg></button>
+              <button class="card__like-button"><span class="button__text">Like</span></button>
+            </div>
+          </section>
+        </li>
+        <!--
+        <li class="card">
+          <h2 class="card__title"></h2>
+          <div class="card__image_wrapper">
+            <img 
+            class="card__image"
+            src="./images/car.png"
+            alt="Фургон, стоящий на парковке в ночное время"
+            />
+            <span class="label">&lt;/html&gt;</span>
+          </div>
+          <section class="card__content">
+            <p class="card__text"></p>
+            <p class="card__text">Место для ваших воспоминаний о начале обучения.</p>
+            <div class="button__wrapper">
+              <button class="card__icon-button"><svg class="like-icon"><use href="./svg/heart in paths (1).svg"/></svg></button>
+              <button class="card__like-button"><span class="button__text">Like</span></button>
+            </div>
+          </section>
+        </li> -->
+
+      </ul>
+      
+      <button class="button"><svg></svg><span class="button__text"> </span></button>
     </main>
     <script src="./scripts/like.js"></script>
   </body>
