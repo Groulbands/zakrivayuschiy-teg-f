@@ -8,4 +8,6 @@
   --elements-width: clamp(23.438rem, 30.516vw + 16.285rem, 43.75rem);
   --elements-border: 2px solid #000;
   --label-color: rgb(255 255 255 / 0.5);
+  --contour-color: #000;
+  --animation-fill-color: red;
 }
