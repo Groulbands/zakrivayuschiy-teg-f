@@ -165,7 +165,7 @@
   box-shadow: 2px 2px 0 currentColor;
 }
 
-.button:not(.card__icon-button)::before{
+.button:not(.card__icon-button)::before {
   content: "";
   position: absolute;
   inset:0;
@@ -174,7 +174,7 @@
   transition: transform 0.5s ease-in-out;
 }
 
-.button:hover:not(.card__icon-button)::before{
+.button:hover:not(.card__icon-button)::before {
   transform: translateX(0);
 }
 
