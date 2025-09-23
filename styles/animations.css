@@ -15,12 +15,12 @@
   border: var(--elements-border);
 }
 
-.contour {
-  transition: fill 0.1s linear;
+.core {
+  transition: fill 0.3s 0.03s linear;
 }
 
-.core {
-  transition: fill 0.3s 0.03s linear; 
+.contour {
+  transition: fill 0.1s linear;
 }
 
 .main-body {
