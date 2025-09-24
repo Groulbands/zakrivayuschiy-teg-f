@@ -241,10 +241,9 @@
 
 #save[open] {
   padding: 30px;
-  inline-size: clamp(21.563rem, 1.127vw + 21.298rem, 22.313rem);
+  inline-size: clamp(21.313rem, 1.127vw + 21.048rem, 22.063rem);
   border: var(--elements-border, 2px solid #000);
   background-color: #fff;
-  opacity: 0.3;
 }
 
 #save[open]::backdrop {
