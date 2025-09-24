@@ -20,7 +20,7 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-family: 'PressStart2P', sans-serif;
+  font-family: var(--font-PressStart);
   background-image: var(--bg-image);
   background-size: cover;
   justify-self: center;
@@ -68,8 +68,8 @@
 
 .card__title {
   padding: 4px 10px;
-  font-family: Inter, sans-serif;
-  font-weight: var(--heading-weight);
+  font-family: var(--font-Inter);
+  font-variation-settings: "wght" var(--heading-weight);
   font-size: 18px;
 }
 
@@ -135,8 +135,8 @@
 }
 
 .card__text {
-  font-family: Inter, sans-serif;
-  font-weight: var(--text-weight);
+  font-family: var(--font-Inter);
+  font-variation-settings: "wght" var(--text-weight);
   font-size: 18px;
   line-height: 21px;
 }
