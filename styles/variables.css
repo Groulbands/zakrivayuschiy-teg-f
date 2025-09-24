@@ -1,6 +1,6 @@
 :root {
   --font-Inter: Inter, sans-serif;
-  --font-PressStart: 'PressStart2P', sans-serif;
+  --font-PressStart: 'PressStart2P', fantasy;
   --heading-weight: 715;
   --text-weight: 410;
   --bg-image: repeating-linear-gradient(#d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
