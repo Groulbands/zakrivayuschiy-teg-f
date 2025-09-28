@@ -233,7 +233,7 @@
 }
 
 .floppy {
-  inline-size: 21px;
+  inline-size: 22px;
   block-size: 21px;
   color: #fff;
   mix-blend-mode: difference;
@@ -290,7 +290,7 @@
   }
   
   .floppy {
-    inline-size: 28px;
+    inline-size: 29px;
     block-size: 28px;
   }
 }
